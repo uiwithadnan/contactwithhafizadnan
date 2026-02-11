@@ -1,0 +1,262 @@
+.max-w-412 {
+  max-width: 379px;
+}
+.max-w-292 {
+  max-width: 262px;
+}
+
+/* navbar css starts */
+
+.text-underline {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* navbar css ends */
+
+/* header section starts here*/
+.header-cover-section {
+  padding-bottom: 180px;
+}
+.header-cover-section p {
+  max-width: 565px;
+  padding-bottom: 0px;
+}
+.header-cover-section h1 {
+  padding-bottom: 90px;
+}
+.banner-height-width {
+  height: 1000px;
+}
+
+/* header section ends here */
+
+/* work together section css goes here */
+.work-together-button {
+  border: 1px solid #f0c0b361;
+  border-radius: 10px;
+  background-color: white;
+  height: 35px;
+  width: 35px;
+  padding-left: 5px;
+}
+.work-together-button-img {
+  border: 2px rgb(194, 191, 191);
+  border-style: dashed;
+  height: 23px;
+}
+/* work together section css ends here */
+
+/* customer centric css goes here */
+.customer-centric-img {
+  border: 2px rgb(194, 191, 191);
+  border-style: dashed;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 47px;
+}
+.cc-teams {
+  border-radius: 8px;
+}
+.ml-60 {
+  margin-left: 60px;
+}
+.ml-106 {
+  margin-left: 106px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+/* customer centric css ends here */
+
+/* dev milestone section css goes here */
+.milestone-btn-div {
+  color: #ff6d43;
+  font-size: 18px;
+  font-weight: bold;
+}
+.milestone-btn {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 3px solid #ff6d43;
+  background-color: #1a1a1f;
+  color: #ff6d43;
+  font-weight: bold;
+}
+.bg-img {
+  background-image: url("../Assets/Images/DedicatedTeams/Vector.html\ 4.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-img-2 {
+  background-image: url("../Assets/Images/DedicatedTeams/Vector.html\ 5.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+
+  height: 199px;
+  left: -20px;
+  top: 14px;
+  width: 519px;
+}
+.dm-1 {
+  position: relative;
+  top: -31px;
+}
+.dm-2 {
+  position: relative;
+  left: 5px;
+  margin-top: 143px;
+}
+.dm-3 {
+  position: relative;
+  left: -15px;
+  margin-top: 116px;
+}
+.dm-4 {
+  margin-top: 196px;
+  position: relative;
+  left: 15px;
+}
+.dm-5 {
+  position: relative;
+  top: -35px;
+  left: -19px;
+}
+.hidden {
+  display: none;
+}
+
+#toast {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+/* dev milestones section ends here */
+
+/* media queries for tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  /* customer centric media queries starts here */
+  .ml-60 {
+    margin-left: 0px;
+  }
+  .ml-106 {
+    margin-left: 0px;
+  }
+  .cc-teams-img-1 {
+    height: 150px;
+    margin-top: 60px;
+  }
+
+  .cc-teams-img-2 {
+    height: 209px;
+    margin-left: 31px;
+  }
+  .cc-teams-img-3 {
+    height: 101px;
+    margin-top: 12px;
+    margin-left: 43px;
+  }
+  .cc-teams-img-4 {
+    height: 117px;
+    margin-top: 12px;
+    margin-left: 106px;
+  }
+  .mt-100 {
+    margin-top: -74px;
+  }
+  /* customer centric media queries ends here */
+
+  /* dev milestones media queries starts here */
+  .bg-img-2 {
+    width: 323px;
+  }
+  .max-w-412 {
+    max-width: 311px;
+  }
+  .dm-2 {
+    margin-top: 32px;
+    left: 8px;
+  }
+  .dm-3 {
+    margin-top: 40px;
+  }
+  .dm-4 {
+    margin-top: 69px;
+  }
+  .dm-5 {
+    top: -121px;
+    left: -5px;
+  }
+  .bg-img-2 {
+    left: -19px;
+    top: 4px;
+  }
+
+  /* dev milestone media queries ends here */
+}
+
+/* media queries for mobile */
+@media screen and (max-width: 767px) {
+  /* customer centric media queries starts here */
+  .ml-60 {
+    margin-left: 0px;
+  }
+  .ml-106 {
+    margin-left: 0px;
+  }
+  .cc-teams-img-1 {
+    height: 180px;
+    margin-top: 58px;
+  }
+
+  .cc-teams-img-2 {
+    height: 240px;
+    margin-left: 31px;
+  }
+  .cc-teams-img-3 {
+    height: 106px;
+    margin-top: 8px;
+    margin-left: 52px;
+  }
+  .cc-teams-img-4 {
+    height: 129px;
+    margin-top: 8px;
+    margin-left: 108px;
+  }
+  .mt-100 {
+    margin-top: -13px;
+  }
+  /* customer centric media queries ends here */
+
+  /* dev milestone queries starts here */
+
+  .bg-img-2 {
+    width: 334px;
+    left: -16px;
+    top: 5px;
+  }
+  .dm-2 {
+    position: relative;
+    left: 8px;
+    margin-top: 65px;
+  }
+  .dm-3 {
+    margin-top: 47px;
+  }
+  .dm-4 {
+    margin-top: 103px;
+  }
+  .dm-5 {
+    top: -116px;
+    left: -3px;
+  }
+  /*dev milestone queries ends here  */
+}

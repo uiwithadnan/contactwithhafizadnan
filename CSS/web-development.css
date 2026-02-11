@@ -1,0 +1,209 @@
+/* why choose us css goes here */
+.opacity-7
+{
+    opacity: 0.7;
+}
+.choose-us-mp
+{
+    padding-top: 27px;
+    padding-bottom: 109px;
+    margin-top: 200px;
+}
+.max-w-275
+{
+    max-width: 275px;
+}
+.max-w-360
+{
+    max-width: 360px;
+}
+.max-w-415
+{
+    max-width: 415px;
+}
+/* why choose us css ends here */
+
+/* tech stack section css for ipad and laptop goes here */
+.tech-stack-section
+{    
+    height: 635px;
+    background: #FCFCFD;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.1);
+    border-radius: 24px;
+    margin-top: 91px;
+}
+.stack-name-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    width: 321px;
+    height: 61px;  
+    color: black;
+}
+.stack-button
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+width: 48px;
+height: 48px;
+border-radius: 12px;
+border: none;
+}
+.stack-heading
+{
+margin-left: 15px;
+padding-top: 8px;
+font-size: 22px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link 
+{
+    color: #12022F;    
+    background-color: #F4F5F6;
+}
+.nav-pills .nav-link {
+    border-radius: 16px;
+    margin-top: 16px;
+    border: none;
+    background-color: #FCFCFD;
+}
+.mt-150
+{
+    margin-top: 150px;
+}
+.color-green
+{
+    background: #45B36B;
+}
+.color-blue
+{
+    background: #3772FF;
+}
+.color-purple
+{
+   background: #9757D7;
+}
+.color-black
+{
+    color:black;
+    font-size: 16px;
+}
+/* tech stack section css for ipad and laptop ends here */
+
+/* tech stack section css for mobiles starts here*/
+.tech-stack-section-m
+{
+display: none;
+}
+/* tech stack section css for mobiles ends here */
+
+/* media queries for ipad */
+@media screen and (min-width:767px) and (max-width:991px)
+{
+    /* tech stack */
+    .stack-name-section {
+       
+        width: 219px;
+        height: 50px;
+        
+    }
+    .stack-button
+    {
+        height: 42px;
+        width: 42px;
+    }
+    .stack-heading {
+        margin-left: 9px;
+        font-size: 19px;
+    }
+    .color-black
+    {     
+        font-size: 13px;
+    }
+    .tech-img
+    {
+        height: 50px;
+        max-width: 60px;
+    }
+    .mt-150 {
+        margin-top: 110px;
+    }
+    .tech-stack-section {
+        height: 523px;
+    }
+
+}
+@media screen and (max-width:767px)
+{
+    /* tech stack section queries for ipad and laptop starts */
+    .tech-stack-section
+    {
+        display: none;
+    }
+    .choose-us-mp {
+        padding-top: 1px;
+        padding-bottom: 49px;
+        margin-top: 109px;
+    }
+    /* tech stack section queries for ipad and laptop ends here */
+
+    /* tech stack section for mobile screen css queries goes here */
+    .tech-stack-section-m
+    {
+    display:block;
+    height: 480px;
+    background-color: #FCFCFD;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.1);
+    border-radius: 24px;
+    margin-top: 30px;
+    }
+    .tech-btn-img
+    {
+        height: 13px;
+        width: 13px;
+    }
+    .stack-button
+{
+    
+padding: 10px;
+width: 25px;
+height: 25px;
+border-radius: 5px;
+}
+.stack-name-section {
+    
+    width: 95px;
+    height: 31px;
+}
+.nav-link {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.nav-pills .nav-link {
+    border-radius: 9px;
+}
+.stack-heading {
+    margin-left: 7px;
+    padding-top: 8px;
+    font-size:11px;
+}
+.tech-img
+    {
+        height: 40px;
+        max-width: 40px;
+    }
+    .color-black
+    {
+        font-size: 9px;
+    }
+    .p-top {
+        margin-top: 50px;
+    }
+    /* tech stack section for mobiles section queries ends here */
+
+}

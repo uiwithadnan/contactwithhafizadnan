@@ -1,0 +1,296 @@
+.header-cover-section {
+  padding-bottom: 0px;
+}
+
+.header-cover-section p {
+  padding-bottom: 70px;
+}
+
+.header-cover-section p {
+  max-width: 565px;
+}
+
+.section-pt {
+  padding-top: 48px;
+}
+
+.think-solve-section img {
+  width: 100%;
+  height: auto;
+}
+
+.left-img-right-paragraph img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.left-img-right-paragraph .h3 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.work-hard-section {
+  margin-top: 130px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.work-hard-section .h3 {
+  max-width: 730px;
+  padding-bottom: 20px;
+}
+
+.work-hard-section .awrds-char-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.work-hard-section .awrds-char {
+  border-top: 1px solid rgba(248, 248, 248, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.work-hard-section .awrds-char-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.work-hard-section .awrds-char-text-bold {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-size: dm-sans-bold;
+}
+
+.work-hard-section .award-and-recogs {
+  margin-top: 90px;
+}
+
+.client-section .h4 {
+  max-width: 450px;
+}
+
+.brands {
+  padding-top: 40px;
+}
+
+.brand {
+  padding-top: 40px;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.get-to-know .h3 {
+  max-width: 350px;
+}
+
+.quote img {
+  width: 100px;
+  height: auto;
+}
+
+#partner-say-carousel .slider-section p {
+  max-width: 850px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 0.2029px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+#partner-say-carousel .slider-section .slider-content {
+  margin-left: 100px;
+}
+
+#partner-say-carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-indent: -999px;
+  background-color: #b3bac5;
+  border-radius: 50%;
+}
+
+#partner-say-carousel .carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: auto;
+}
+
+#partner-say-carousel .slider-person {
+  display: flex;
+  margin-top: 80px;
+}
+
+#partner-say-carousel .slider-person img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
+
+#partner-say-carousel .slider-person .person-img {
+  max-width: 58px;
+  max-height: 58px;
+  padding: 4px;
+  background-color: #36b37e;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+#partner-say-carousel .slider-person h5 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #391484;
+  margin-bottom: 3px;
+}
+
+#partner-say-carousel .slider-person span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #183b56;
+}
+
+#partner-say-carousel .carousel-indicators .active {
+  background-color: #1565d8;
+}
+.hidden {
+  display: none;
+}
+
+#toast {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 992px) {
+  .header-cover-section p {
+    padding-bottom: 30px;
+  }
+  .section-pt {
+    padding-top: 80px;
+  }
+  .we-help-brands {
+    padding-top: 100px;
+  }
+  .we-help-brands .helping-features {
+    padding-top: 60px;
+  }
+  .work-hard-section {
+    margin-top: 100px;
+  }
+  .quote img {
+    width: 60px;
+    height: auto;
+  }
+  #partner-say-carousel .slider-section .slider-content {
+    margin-left: 50px;
+  }
+  #partner-say-carousel .slider-section p {
+    max-width: 615px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2029px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  #partner-say-carousel .slider-person {
+    display: flex;
+    margin-top: 50px;
+  }
+  .slider-section {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-cover-section p {
+    padding-bottom: 0px;
+  }
+  .header-cover-section {
+    padding-top: 40px;
+  }
+  .section-pt {
+    padding-top: 50px;
+  }
+  .left-img-right-paragraph img {
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .we-help-brands {
+    padding-top: 50px;
+  }
+  .we-help-brands h3 {
+    line-height: 3.5rem;
+  }
+  .we-help-brands .helping-features {
+    padding-top: 30px;
+  }
+  .work-hard-section {
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .work-hard-section .award-and-recogs {
+    margin-top: 40px;
+  }
+  .work-hard-section .awrds-char {
+    padding-top: 40px;
+  }
+  .award-and-recogs img {
+    margin-bottom: 20px;
+  }
+  .brands {
+    padding-top: 0px;
+  }
+  .slider-section {
+    margin-top: 60px;
+  }
+  #partner-say-carousel .slider-section .slider-content {
+    margin-left: 0px;
+  }
+  #partner-say-carousel .slider-section p {
+    font-size: 18px;
+  }
+  #partner-say-carousel .carousel-indicators {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -50px;
+  }
+  #partner-say-carousel .slider-person {
+    margin-top: 30px;
+  }
+}

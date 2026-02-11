@@ -1,0 +1,275 @@
+/* navbar css starts */
+.text-underline
+{
+    border-bottom: 1px solid #000;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+
+}
+.header-cover-section p {
+    padding-bottom: 0px; 
+}
+/* navbar css ends */
+body
+{
+    max-width: 100%;
+    
+}
+.header-cover-section {
+    padding-bottom: 135px;
+} 
+.h1{
+    max-width: 461px; color: #12022F;
+}
+.margin-top
+{
+margin-top: 200px;
+}
+.margin-top-100
+{
+    margin-top: 100px;
+}
+/* image section css goes here */
+
+.theme-button {
+    border:2px solid #E7E5EA;
+}
+/* image section css ends here */
+
+/* plan section css */
+.ellipse-icon
+{
+    position: relative;
+    margin-top: -49px;
+}
+.research-banner
+{
+    width: 100%;
+}
+/* plan section css ends */
+
+/* aims and objectives section */
+.card
+{
+    border: none;
+}
+.card-body
+{
+    padding-top: 2rem;
+}
+.column-right
+{
+    padding-top: 253px;
+}
+.project-img-lh
+{
+    height:855px;
+    margin-top:27px;
+}
+.project-img-lh2
+{
+    height:794px;
+    margin-top:27px;
+}
+/* aims and objectives end */
+.max-w
+{
+    max-width:362px;
+}
+.max-w-380
+{
+    max-width: 380px;
+}
+.max-w-363
+{
+    max-width: 363px;
+}
+/* analysis section css */
+.carousel-inner{
+    overflow: visible;
+}
+
+.analysis-img{
+    position: relative;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.viveprinting-img
+{
+    background-image: url('../Assets/Images/PashaFabrics/PASHA_1.jpg');
+}
+.carr-mate-img
+{
+    background-image: url('../Assets/Images/CarrMate/carmate_1.png');
+}
+.jom-mart-img
+{
+    background-image: url('../Assets/Images/JomMart/JOM-Main.jpg');
+}
+.playpal-img
+{
+    background-image: url('../Assets/Images/Playpal/PLATFORM-DIAGRAM-RESIZED.gif');
+}
+.vmd-img
+{
+    background-image: url('../Assets/Images/VMD/VMD_001_RESIZED.png');
+}
+.analysis-black
+{
+    position:absolute;
+    top:0;
+    right:0;
+    color: white;
+    height: 120px;
+    width: 50%;
+    padding:50px;
+}
+.mt-230
+{
+    margin-top: 230px;
+}
+.text-p
+{
+    padding-top: 40px;
+    
+}
+
+#partner-say-carousel .slider-section p {
+   font-size: 12px;
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:991px)
+{
+    /* aims and objetives section queries */
+    .project-img {
+        height: 400px;
+    }
+    .desktop-only
+    {
+        display:none;
+    }
+    .text-p {
+        padding-top: 45px;
+    }
+    .footer-section
+    {
+        margin-top: -150px;
+    }
+    .analysis-image-section
+    {
+        padding-top: 170px;
+    }
+    .h1
+    {
+        max-width: 440px;
+    }
+    .max-w
+    {
+        max-width:245px;
+    }
+    .header-cover-section {
+        padding-bottom: 80px;
+    }
+    .margin-top {
+        margin-top: 90px;
+    }
+    .margin-top-100 {
+        margin-top: 38px;
+    }
+    .column-right {
+        padding-top: 140px;
+    }
+    .project-img-lh {
+        height: 662px;
+    }
+    .project-img-lh2 {
+        height: 541px;
+    }
+
+  
+
+    .analysis-black
+    {
+        height: 350px;
+        width: 65%;
+    }
+    .mt-170
+{
+    margin-bottom: 250px;
+}
+}
+
+@media screen and (max-width:767px)
+{
+/* plan section queries */
+.ellipse-icon
+{
+    padding-right: 10px;
+    margin-top: -45px;
+}
+
+/* aims and objectives */
+.column-right {
+    padding-top: 0px;
+}
+.project-img {
+    height: 400px;
+}
+.project-img-lh
+{
+    height:400px;
+    margin-top:27px;
+}
+.project-img-lh2
+{
+    height:400px;
+    margin-top:0px;
+}
+.h2{
+line-height: 1;
+}
+.text-p
+{
+    padding-top: 10px;
+}
+
+.analysis-img{
+    height: 250px;
+}
+.analysis-black
+{
+    height: 180px;
+    padding: 20px;
+    width: 70%;
+}
+.analysis-image-section
+{
+    padding-top: 80px;
+}
+.footer-section
+{
+    margin-top: 0px;
+}
+.header-cover-section {
+    padding-bottom: 0px;
+}
+.h1
+{
+    max-width: 300px;
+}
+.margin-top
+{
+margin-top: 80px;
+}
+.margin-top-100
+{
+    margin-top: 30px;
+}
+.mt-170
+{
+    margin-bottom: 80px;
+}
+}

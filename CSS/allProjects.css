@@ -1,0 +1,68 @@
+/* navbar css starts */
+.text-underline {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+/* navbar css ends */
+
+/* projects section css starts */
+.projects-section {
+  padding-top: 6%;
+}
+.projects-heading {
+  display: flex;
+}
+.arrow-down {
+  padding-left: 10px;
+  height: 18px;
+  margin-top: 16px;
+}
+.projects-overview {
+  padding-top: 40px;
+}
+.column-right {
+  padding-top: 253px;
+}
+.hidden {
+  display: none;
+}
+
+#toast {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+/* projects section css ends */
+
+/* media query for tabs */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .project-img {
+    height: 400px;
+  }
+}
+
+/* media query for mobiles */
+@media screen and (max-width: 767px) {
+  .projects-section {
+    padding-top: 16%;
+  }
+  .projects-overview {
+    padding-top: 14px;
+  }
+  .column-right {
+    padding-top: 0px;
+  }
+  .project-img {
+    height: 400px;
+  }
+
+  form {
+    width: 300px;
+  }
+}
