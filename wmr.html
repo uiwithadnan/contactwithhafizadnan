@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.hyfatech.com/viveprinting.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jan 2024 19:07:41 GMT -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/bootstrapCSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/app.css" />
+  <link rel="stylesheet" href="CSS/project-details.css" />
+  <link rel="stylesheet" href="CSS/cursor.css" />
+  <link rel="stylesheet" href="CSS/viveprinting.css" />
+  <link rel="icon" type="image/x-icon" href="Assets/Images/favicon.png" />
+  <title>WMR App Design</title>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      /* Set the maximum height of the image to 600px */
+      width: auto;
+      /* Ensure the width adjusts proportionally based on the height constraint */
+    }
+  </style>
+</head>
+
+<body>
+  <!--header nav bar is starting-->
+  <header class=" ">
+    <div class="container">
+      <!--<script language="javascript" type="text/javascript" src="./header.txt"></script>-->
+      <nav class="navbar bg-white">
+        <a href="index.html">
+          <img style="margin-top: 25px" height="28px" src="Assets/Images/Home/logo.png" alt="HYFATech" />
+        </a>
+        <a href="contact-us.html">
+          <p id="navbar" class="text-underline">Hire Me</p>
+        </a>
+        <img id="mobile-menu-btn" class="mobile-only menu-icon" src="Assets/Images/Home/list.svg" alt="menu" />
+      </nav>
+
+      <!--Header navbar is ending and first section is starting-->
+
+      <div class="row header-cover-section">
+        <div class="col-md-8 font-bold">
+          <p>Mobile App Project</p>
+          <h1 class="h1">WhatsApp Media Recovery App — UI/UX Case Study</h1>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="Assets/Images/Home/Menu.svg" class="menu-img menu-btn ham" alt="menu" />
+    </div>
+  </header>
+  <!-- header ends -->
+
+  <!-- menu section is starting here -->
+  <section class="menu-section" style="display: none">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11"></div>
+        <div class="col-md-1">
+          <button id="cross-btn" class="cross-btn float-right ham">
+            <img data-magnetic data-cursor="-opaque" src="Assets/Images/Home/cross.svg" alt="cross-button" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container-fluid">
+        <div class="row menu-row">
+          <div class="col-md-5 p-0 font-bold" data-cursor="-opaque">Menu</div>
+          <div class="col-md-7">
+            <a href="index.html">
+              <div class="row menu-headings-row" data-magnetic data-cursor="-opaque -md">
+                <div class="col-1 pl-0">
+                  <p class="p-12 font-bold">01.</p>
+                </div>
+                <div class="col-10 h4">Home</div>
+                <div class="col-push-1 float-right ml-auto">
+                  <img src="Assets/Images/Home/arrow-left.svg" alt="arrow-left" />
+                </div>
+              </div>
+            </a>
+            <a href="services.html">
+              <div class="row menu-headings-row" data-magnetic data-cursor="-opaque -md">
+                <div class="col-1 pl-0">
+                  <p class="p-12 font-bold">02.</p>
+                </div>
+                <div class="col-10 h4">Services</div>
+                <div class="col-push-1 float-right ml-auto">
+                  <img src="Assets/Images/Home/arrow-left.svg" alt="arrow-left" />
+                </div>
+              </div>
+            </a>
+            <a href="all-project.html">
+              <div class="row menu-headings-row" data-magnetic data-cursor="-opaque -md">
+                <div class="col-1 pl-0">
+                  <p class="p-12 font-bold">03.</p>
+                </div>
+                <div class="col-10 h4">Works</div>
+                <div class="col-push-1 float-right ml-auto">
+                  <img src="Assets/Images/Home/arrow-left.svg" alt="arrow-left" />
+                </div>
+              </div>
+            </a>
+            <a href="about-us.html">
+              <div class="row menu-headings-row" data-magnetic data-cursor="-opaque -md">
+                <div class="col-1 pl-0">
+                  <p class="p-12 font-bold">04.</p>
+                </div>
+                <div class="col-10 h4">About</div>
+                <div class="col-push-1 float-right ml-auto">
+                  <img src="Assets/Images/Home/arrow-left.svg" alt="arrow-left" />
+                </div>
+              </div>
+            </a>
+
+            <a href="contact-us.html">
+              <div class="row menu-headings-row" data-magnetic data-cursor="-opaque -md">
+                <div class="col-1 pl-0">
+                  <p class="p-12 font-bold">05.</p>
+                </div>
+                <div class="col-10 h4">Contact Us</div>
+                <div class="col-push-1 float-right ml-auto">
+                  <img src="Assets/Images/Home/arrow-left.svg" alt="arrow-left" />
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row menu-bottom">
+          <div class="col-xs-12 col-sm-5 pl-sm-0">
+            <div class="row">
+              <a href="https://www.linkedin.com/in/hafixadnan/" target="_blank">
+                <div class="col-sm-1 col-md-1 col-2" data-cursor="-opaque">
+                  <p class="p-12">LN</p>
+                </div>
+              </a>
+              <div class="col-sm-3 col-md-4 col-4" data-cursor="-opaque">
+                <p class="p-12" style="opacity: 0.5">- Connect</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- menu section is ending here -->
+
+  <!-- image section after header -->
+  <section>
+    <div class="pl-0 pr-0">
+      <img class=".center" src="Assets/Images/wmr/feature image.jpg" alt="pago image" />
+    </div>
+    <div class="container" style="background-color: white">
+      <!-- <div class="row p-top">
+                <div class="col-md-3 col-6">
+                    <div class="inline-for-mob">
+                        <h6 class="h6">Client</h6>
+                    </div>
+                    <div class="line-height-0">
+                        <p>Payment System</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="inline-for-mob">
+                        <h6 class="h6">Industry</h6>
+                    </div>
+                    <div class="line-height-0">
+                        <p>Finance</p>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-3 col-6">
+                    <div class="inline-for-mob">
+                        <h6 class="h6">Services</h6>
+                    </div>
+                    <div class="line-height-0">
+                        <p>User Experience</p>
+                        <p>User Interface</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="inline-for-mob">
+                        <h6 class="h6">Deliverables</h6>
+                    </div>
+                    <div class="line-height-0">
+                        <p>Web Platform</p>
+                        <p>Mobile Version</p>
+                        <p>UI Kit</p>
+                    </div>
+                </div>
+            </div> -->
+      <div class="row p-top">
+        <div class="col-md-4">
+          <h4 class="h4 max-w">
+            About Project
+            </h3>
+        </div>
+        <div class="col-md-8">
+          <p class="p-16 p-1">
+
+            Introducing the WhatsApp Media Recovery App, a powerful solution designed to address the limitations of
+            WhatsApp's default functionality. This app offers users the ability to effortlessly recover deleted messages
+            and media files, providing peace of mind and eliminating the frustration of lost content. But that's not all
+            – this feature-packed app also includes a WhatsApp status saver, seamless integration with WhatsApp web for
+            easy cross-platform access, direct messaging without the need to save contacts, and a user-friendly
+            frequently used action button (FAB) for quick navigation. With the WhatsApp Media Recovery App, users can
+            enjoy a comprehensive messaging experience that combines convenience, functionality, and enhanced control
+            over their WhatsApp interactions.
+
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row p-top">
+        <div class="col-md-4">
+          <h4 class="h4 max-w">
+            Problem Statement
+            </h3>
+        </div>
+        <div class="col-md-8">
+          <p class="p-16 p-1">
+
+            The problem lies in the limitations of WhatsApp's default functionality, which lacks the ability to recover
+            deleted messages and media files. When users inadvertently delete important content, they are left without a
+            reliable method to restore it. <br>
+          <p style="font-weight: 600;">Problems:</p>
+          <ul>
+            <li>Inability to recover deleted messages and media files.</li>
+            <li>Difficulty in accessing and saving WhatsApp status updates.
+            </li>
+            <li> No direct messaging capability without saving contact numbers.</li>
+            <li>What factors do you consider when selecting a printing service provider?</li>
+            <!-- <li> Limited convenience and accessibility in navigating WhatsApp's interface.</li> -->
+
+
+          </ul>
+
+
+          </p>
+        </div>
+      </div>
+
+
+
+      <div class="row p-top">
+        <div class="col-md-4">
+          <h4 class="h4 max-w">
+            Target Audience:
+            </h3>
+        </div>
+        <div class="col-md-8">
+          <p class="p-16 p-1">
+
+            The WhatsApp Media Recovery App, available exclusively on the Google Play Store, is specifically designed
+            for Android users who utilize WhatsApp as their primary messaging platform. <br><br>
+
+            Android Smartphone Users: Individuals who own Android smartphones and frequently use WhatsApp for personal
+            or professional communication. <br><br>
+
+            WhatsApp Data Loss Victims: Users who have experienced the accidental deletion of important messages or
+            media files on WhatsApp and are actively seeking a reliable solution to recover their lost content. <br><br>
+
+            WhatsApp Status Enthusiasts: Users who regularly engage with WhatsApp status updates and desire a convenient
+            way to save and revisit their favorite statuses without manual efforts or external tools.
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- image section ends here -->
+  <!-- plan section goes here -->
+  <section>
+    <div class=" " style="background-color: white">
+      <div class="container margin-top">
+        <h4 class="h4">Design Process </h4>
+      </div>
+      <div class="contianer-fluid margin-top-100">
+        <img class="desktop-only" style="max-width: 100%" src="Assets/Images/ProjectsDetails/plan.svg"
+          alt="line-image" />
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 inline-for-mob">
+              <img class="ellipse-icon" src="Assets/Images/ProjectsDetails/circle-indicator.svg" alt="ellpise icon" />
+              <p class="p-18">
+                Define
+              </p>
+            </div>
+            <div class="col-md-3 inline-for-mob">
+              <img class="ellipse-icon" src="Assets/Images/ProjectsDetails/circle-indicator.svg" alt="ellpise icon" />
+              <p class="p-18">
+                Research
+              </p>
+            </div>
+            <!-- <div class="col-md-2 inline-for-mob">
+              <img class="ellipse-icon" src="Assets/Images/ProjectsDetails/circle-indicator.svg" alt="ellpise icon" />
+              <p class="p-18">
+                Analysis
+              </p>
+            </div> -->
+            <div class="col-md-3 inline-for-mob">
+              <img class="ellipse-icon" src="Assets/Images/ProjectsDetails/circle-indicator.svg" alt="ellpise icon" />
+              <p class="p-18">
+                Wireframe
+              </p>
+            </div>
+            <div class="col-md-3 inline-for-mob">
+              <img class="ellipse-icon" src="Assets/Images/ProjectsDetails/circle-indicator.svg" alt="ellpise icon" />
+              <p class="p-18">
+                Design
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- plan section ends here -->
+  <!-- research section starts here -->
+  <section>
+    <div class="container">
+      <div class="row p-top">
+        <div class="col-md-4">
+          <h4 class="h4 max-w">
+            User Research
+          </h4>
+        </div>
+        <div class="col-md-8">
+          <p class="p-16 p-1">
+
+            Given the scope and size of the project, user research was conducted to understand the needs and preferences
+            of the target audience. The research approach involved analyzing existing apps in the market and identifying
+            the gaps and limitations in their functionality. By examining the features and user feedback of similar
+            apps, valuable insights were gained regarding the pain points and areas for improvement within the WhatsApp
+            messaging experience.<br>
+
+          <p style="font-weight: 600;"> The research process included: </p>
+          App Analysis: <br>Studying and analyzing existing apps related to WhatsApp media recovery, status saving,
+          WhatsApp web integration, and direct messaging. This involved examining their features, user interfaces, and
+          user reviews to identify common issues and areas of improvement. <br>
+
+          User Feedback Analysis: <br>Reviewing user feedback and reviews from relevant apps to understand the specific
+          pain points and frustrations experienced by users. This helped in identifying the gaps and areas where the
+          proposed app could provide enhanced functionality and a better user experience. <br>
+
+          Identifying User Needs:<br> By combining the insights obtained from app analysis and user feedback, the
+          specific
+          needs and preferences of the target audience were identified. This included understanding the importance of
+          content recovery, status saving, cross-platform usage, direct messaging, and a streamlined user interface.
+          <br>
+
+          By leveraging these research methods, the aim was to gain a comprehensive understanding of the user needs
+          and expectations within the context of the WhatsApp messaging platform. This research-driven approach helped
+          in shaping the features and functionality of the WhatsApp Media Recovery App to effectively address the
+          identified gaps and provide a valuable solution to the target audience.
+
+
+          </ul>
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="row p-top">
+        <div class="col-md-4">
+          <h4 class="h4 max-w">
+            User Interface Design
+          </h4>
+        </div>
+        <div class="col-md-8">
+          <p class="p-16 p-1">
+
+            During the development of the WhatsApp Media Recovery App, several key design decisions were made to ensure
+            a seamless and user-friendly experience. The following are some of the significant design choices and their
+            rationale:<br>
+          <p style="font-weight: 600;">
+            UI Elements:</p>
+
+          The user interface (UI) was designed to be intuitive and visually appealing, with clear and easily
+          recognizable icons and buttons. This choice was made to facilitate easy navigation and enhance the overall
+          user experience. The UI elements were carefully selected to align with established design patterns familiar to
+          WhatsApp users, ensuring a sense of familiarity and reducing the learning curve..
+
+          <br><br>
+
+          <p style="font-weight: 600;"> Information Architecture: </p>
+          A well-organized information architecture was implemented to ensure that users can easily access and manage
+          their recovered messages and media files. The app employs a logical and hierarchical structure, categorizing
+          recovered content based on date, sender, or media type. This design decision enables users to quickly locate
+          and retrieve specific messages or media files, enhancing the efficiency of the recovery process.
+          <br><br>
+
+          <p style="font-weight: 600;"> Interaction Flows: </p>
+          The app's interaction flows were designed to be seamless and streamlined, minimizing the number of steps
+          required to perform common actions. For example, the direct messaging feature allows users to initiate a
+          conversation without the need to save the contact's number, reducing friction and simplifying the
+          communication process. Similarly, the frequently used action button (FAB) provides quick access to essential
+          functions, reducing the need for navigating through multiple screens.
+          <br><br>
+
+          <p style="font-weight: 600;">Consistency with WhatsApp Branding: </p>
+          The design of the app was aligned with WhatsApp's branding guidelines to maintain visual consistency and
+          familiarity for users. This decision was made to ensure that the app seamlessly integrates into the existing
+          WhatsApp ecosystem, making it feel like a natural extension of the messaging platform.
+
+          </p>
+        </div>
+        <div class="container-fluid margin-top pl-0 pr-0">
+          <img class=".center" src="Assets/Images/wmr/final result.jpg" alt="pago image" />
+          <!-- </div>
+        <div class="row p-top">
+          <div class="col-md-4">
+            <h4 class="h4 max-w">
+              Development
+            </h4>
+          </div>
+          <div class="col-md-8">
+            <p class="p-16 p-1">
+
+               During the development phase of the mycustompackaging website accessible at  <a href="https://viveprinting.co.uk/" style="color: #CEA752;">viveprinting.co.uk </a>, our 
+             Our team meticulously implemented various technologies and coding languages to ensure optimal performance and
+              functionality. Leveraging WordPress as the foundational platform, we employed a combination of HTML, CSS,
+              JavaScript, and PHP to bring the website to life.
+
+              One of the key focuses during development was maintaining pixel-perfect precision and adhering to the
+              design specifications outlined in our collaborative efforts with the UX/UI designers. Through close
+              collaboration with the development team, we ensured seamless integration of the design elements, including
+              typography, color schemes and the overall style.
+
+              Furthermore, our development process prioritized user experience and search engine optimization (SEO)
+              considerations. We held regular meetings with both the SEO team and the development team to align on best
+              practices and implement strategies to enhance website visibility and performance.
+
+            </p>
+          </div>
+        </div> -->
+  </section>
+  <!-- <div class="container-fluid margin-top pl-0 pr-0">
+    <img class="banner-height-width1" src="Assets/Images/PashaFabrics/PASHApg" alt="pago image" />
+    
+  </div> -->
+
+  </div>
+  <!-- research section ends here -->
+  <!-- Analysis section starts here -->
+  <!--<section>
+    <div id="carouselExampleIndicators" class="carousel slide mt-170" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="analysis-img playpal-img">
+                    <div class="analysis-black bg-black">
+                        <h2 class="h2">Playpal is a digital web and mobile platform</h2>
+                        <span class="text-p d-block">
+                            <a href="#carouselExampleIndicators" class="text-white" role="button" data-slide="next">
+                                Playpal
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="analysis-img vmd-img">
+                    <div class="analysis-black bg-black">
+                        <h2 class="h2">Telehealth app connecting patients with doctors</h2>
+                        <span class="text-p d-block">
+                            <a href="#carouselExampleIndicators" class="text-white" role="button" data-slide="next">
+                               VirtualMD
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="analysis-img carr-mate-img">
+                    <div class="analysis-black bg-black">
+                        <h2 class="h2">Connects auto service vendors with car owners </h2>
+                        <span class="text-p d-block">
+                            <a href="#carouselExampleIndicators" class="text-white" role="button" data-slide="next">
+                                CarrMate
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="analysis-img viveprinting-img">
+                    <div class="analysis-black bg-black">
+                        <h2 class="h2">Pasha Fabrics creates finely crafted fabrics  </h2>
+                        <span class="text-p d-block">
+                            <a href="#carouselExampleIndicators" class="text-white" role="button" data-slide="next">
+                               Pasha Fabrics
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="analysis-img jom-mart-img">
+                    <div class="analysis-black bg-black">
+                        <h2 class="h2">A unique e-commerce grocery app  </h2>
+                        <span class="text-p d-block">
+                            <a href="#carouselExampleIndicators" class="text-white" role="button" data-slide="next">
+                                JOM Mart
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</section>-->
+  <!-- <div class="container mt-230">
+    <div class="row" align="center">
+      <div class="col-md-12">
+        <h3 class="h3" style="padding: 20px">More Projects</h3>
+      </div>
+    </div>
+    <div class="row"> -->
+      <!-- Carousel Card -->
+      <!-- <div class="card card-raised card-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="Assets/Images/carwash/Feature Image.jpg" alt="First slide" />
+              <div class="carousel-caption d-none d-md-block" style="
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 40px;
+                  margin-bottom: -20px;
+                ">
+                <h4 style="text-align: text; margin-bottom: 25px">
+                  Car Wash Mobile App
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Assets/Images/PashaFabrics/viveprinting.co.uk.jpg" alt="Second slide" />
+              <div class="carousel-caption d-none d-md-block" style="
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 40px;
+                  margin-bottom: -20px;
+                ">
+                <h4 style="text-align: text; margin-bottom: 25px">
+                  Redesign E e-commerce Web Design
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Assets/Images/shrtsurl/feature image.jpg" alt="Third slide" />
+              <div class="carousel-caption d-none d-md-block" style="
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 40px;
+                  margin-bottom: -20px;
+                ">
+                <h4 style="text-align: text; margin-bottom: 25px">
+                  Dashboard Redesign Web Proeject
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Assets/Images/PashaFabrics/viveprinting.co.uk.jpg" alt="Third slide" />
+              <div class="carousel-caption d-none d-md-block" style="
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 40px;
+                  margin-bottom: -20px;
+                ">
+                <h4 style="text-align: text; margin-bottom: 25px">
+                  Redesigning Viveprinting's Packaging Design — UI/UX Case Study
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Assets/Images/Pdf scanner/1st-.webp" alt="Third slide" />
+              <div class="carousel-caption d-none d-md-block" style="
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 40px;
+                  margin-bottom: -20px;
+                ">
+                <h4 style="text-align: text; margin-bottom: 25px">
+                  Pdf Suit App Desing
+                </h4>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div> -->
+      <!-- End Carousel Card -->
+    </div>
+  </div>
+  </div>
+  <!-- Analysis section end here -->
+
+  <!--footer section start-->
+  <!--<script-->
+  <!--  language="javascript"-->
+  <!--  type="text/javascript"-->
+  <!--  src="./footer.txt"-->
+
+  
+  <footer id="footer">
+    <div class="footer-section bg-black">
+      <div class="container mp-25 mac-only">
+        <h3 class="h3 color-white p-l-4">Have an idea?</h3>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 offset-md-3 form-section offset">
+            <form action="https://formsubmit.co/uiwithadnan@gmail.com" method="post">
+              <div class="group">
+                <input type="text" autocomplete="off" id="contact_name" name="text" required />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Name</label>
+              </div>
+              <div class="group">
+                <input type="text" autocomplete="off" required id="contact_email" name="email" />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Email</label>
+              </div>
+              <!-- <div class="group">
+                <input type="number" autocomplete="off" required />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Phone</label>
+              </div> -->
+              <div class="group">
+                <input type="text" autocomplete="off" required name="message" id="contact_message" />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Description</label>
+              </div>
+              <div>
+                <button type="submit" class="theme-button" style="border: none">
+                  Submit
+                </button>
+              </div>
+            </form>
+            <div id="toast" class="hidden">
+              <div class="toast-message">Form submitted successfully!</div>
+            </div>
+            <div class="row footer-bottom-section">
+              <div class="row" style="display: flex; flex-wrap: nowrap">
+                <div class="w-auto">
+                  <p class="footer-bottom-text">Email.</p>
+                  <p class="footer-bottom-text">Social.</p>
+                  <p class="footer-bottom-text">Address.</p>
+                </div>
+                <div class="col-md-6 w-auto footer-bottom-column2">
+                  <a href="mailto:uiwithadnan@gmail.com" target="_blank">
+                    <p class="footer-bottom-text opacity">
+                      uiwithadnan@gmail.com
+                    </p>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-1 footer-bottom-text opacity w-auto">
+                      <a href="https://www.linkedin.com/in/hafixadnan/" target="_blank">
+                        <img style="border-radius: 3px" src="Assets/Images/Home/linkedin.webp" width="18px" alt="" />
+                      </a>
+                    </div>
+                    <!-- <div class="col-md-1 footer-bottom-text opacity w-auto">
+                        <a
+                          href="https://dribbble.com/search/hyfatech"
+                          target="_blank"
+                        >
+                          <img src="./Assets/Images/Home/globe.svg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-1 footer-bottom-text opacity w-auto">
+                        <a
+                          href="https://www.facebook.com/HYFATech-103042001731395/"
+                          target="_blank"
+                        >
+                          <img src="./Assets/Images/Home/facebook.svg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-1 footer-bottom-text opacity w-auto">
+                        <a
+                          href="https://www.instagram.com/hyfatech/?hl=en"
+                          target="_blank"
+                        >
+                          <img
+                            src="./Assets/Images/Home/instagram.svg"
+                            alt=""
+                          />
+                        </a>
+                      </div> -->
+                  </div>
+                  <p class="footer-bottom-text opacity">
+                    605-D, Canal View Housing Society, Canal View, Lahore, Punjab
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 pl-0">
+                <p class="footer-bottom-text">
+                  Copyrights@
+                  <span id="copyright-year"></span>
+                  Hafiz Muhammad Adnan
+                </p>
+                <p class="footer-bottom-text opacity" style="max-width: 255px"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Mirrored from www.hyfatech.com/viveprinting.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jan 2024 19:07:46 GMT -->
+
+</html>
